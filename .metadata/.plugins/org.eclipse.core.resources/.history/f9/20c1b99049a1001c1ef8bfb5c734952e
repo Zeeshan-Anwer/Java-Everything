@@ -1,0 +1,25 @@
+package string_programmes;
+
+import java.util.Scanner;
+
+public class SpaceCount {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Your String");
+		String Data=sc.next();
+		char ch;
+		int DataLength = Data.length();
+		int i=DataLength-1,Count=0;
+		while(i>=0){
+			ch=Data.charAt(i);
+			if(ch=='')
+				Count++;
+			i--;
+		}
+		System.out.println(Count+" Spaces are present here");
+	}
+
+}

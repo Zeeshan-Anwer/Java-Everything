@@ -1,0 +1,23 @@
+package string_programmes;
+
+import java.util.Scanner;
+
+public class EqualityCheck {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Any Word");
+		String word1=sc.next();
+		String word2=sc.next();
+	
+		
+		if(word1.equals(word2))
+			System.out.println("Equal");
+		else
+			System.out.println("Not Equal:");
+
+	}
+
+}

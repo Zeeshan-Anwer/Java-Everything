@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:WebApp" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Train_Admin_Panel" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Home" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Practice" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CoronaVaccineApp1" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:LinksApp-WorkingMultipleHyperlinks" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CoronaVaccineApp" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:BangaloreBankingS" serverId="apache-tomcat-8.0.36 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Train_User" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Train_User_Service" serverId="apache-tomcat-8.0.36 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CountryCapitalsApp" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:CoronaVaccineApp3-doXxxMethods" serverId="Tomcat v8.0 Server at localhost"/>
+</modules>

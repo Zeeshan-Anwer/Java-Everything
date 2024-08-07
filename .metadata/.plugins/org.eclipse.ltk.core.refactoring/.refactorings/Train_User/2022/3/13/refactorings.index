@@ -1,0 +1,23 @@
+1647967708310	Rename resource 'adminChoice.html'
+1647968215584	Rename resource 'InsertTrain.html'
+1647968634982	Rename resource 'UserChoice.html'
+1647969059930	Delete element
+1647969092281	Delete element
+1647972772182	Rename resource 'credentials.properties.txt'
+1648102654659	Rename resource 'admin.html'
+1648102711190	Rename type 'AdminLogin'
+1648103925342	Rename resource 'userLogin.html'
+1648104126411	Rename resource 'UserLogin.html'
+1648112813896	Delete element
+1648204378002	Rename package 'com.train.booking.user'
+1648204391533	Rename package 'com.train.servlet'
+1648204520264	Move compilation unit
+1648204534195	Move compilation units
+1648204538827	Delete element
+1648232031223	Rename resource 'FindTrain.html'
+1648232112047	Rename resource 'Train.html'
+1648233841999	Rename type 'FindTrain'
+1648233988145	Rename type 'UserForm'
+1648234002185	Rename type 'ShowAllTrainDetails'
+1648234059916	Rename type 'UserLogin'
+1648234089489	Rename resource 'index.html'

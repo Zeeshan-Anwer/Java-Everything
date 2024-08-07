@@ -1,0 +1,22 @@
+ 
+ <h1 style="color:red;text-align:center"> Welcome To Train Reservation System </h1>
+ <h1 style="color:red;text-align:center"> Please Choose Your Options </h1>
+ 
+ 
+ <form name="frm" action="AdminPanel" method="GET">
+    Select Country ::  <select name="choice"  onchange="frm.submit()">
+    
+                                          <option value="-1" selected>--select -- value </option>
+                                          <option value="1" >Admin </option>
+                                          <option value="2" >User </option>
+                                          <option value="3" >Exit</option>                                    
+                                  </select>
+                                  
+                                  </form>
+                                  
+  <script language="javascript">
+	
+function send(){
+	frm.submit();
+}
+</script>

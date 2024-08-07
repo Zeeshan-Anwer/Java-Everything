@@ -1,0 +1,109 @@
+/*
+ * package com.trainbooking.servlets;
+ * 
+ * import java.io.IOException; import java.io.PrintWriter; import
+ * java.sql.Connection; import java.sql.PreparedStatement; import
+ * java.sql.ResultSet; import java.sql.SQLException;
+ * 
+ * import javax.servlet.ServletException; import
+ * javax.servlet.annotation.WebServlet; import javax.servlet.http.HttpServlet;
+ * import javax.servlet.http.HttpServletRequest; import
+ * javax.servlet.http.HttpServletResponse;
+ * 
+ * import com.train.booking.htmlutil.HtmlUtil; import
+ * com.train.booking.pojo.Profile; import com.train.booking.utils.JdbcUtils;
+ * 
+ *//**
+	 * Servlet implementation class BookTicket
+	 *//*
+		 * @WebServlet("/BookTicket") public class BookTicket extends HttpServlet {
+		 * private static final long serialVersionUID = 1L;
+		 * 
+		 * 
+		 * protected void service(HttpServletRequest req, HttpServletResponse resp)
+		 * throws ServletException, IOException { PrintWriter out= resp.getWriter();
+		 * 
+		 * String print=
+		 * HtmlUtil.converter("D:\\Workspace\\WebApp\\src\\main\\webapp\\findTrain.html"
+		 * ); out.print(print); boolean check=false; Connection
+		 * con=JdbcUtils.getConnection();
+		 * 
+		 * 
+		 * 
+		 * String tsource= req.getParameter("Source"); String tdest=
+		 * req.getParameter("Destination"); String tdate= req.getParameter("Date");
+		 * String
+		 * Query="SELECT * FROM TRAIN_DETAILS WHERE FROMSTATION=? AND TOSTATION=?" ;
+		 * String Query2="SELECT * FROM TRAIN_DETAILS";
+		 * resp.setContentType("text/html"); out.println("<html><body>"); try {
+		 * java.sql.Statement pst= con.createStatement(); pst.execute(Query2);
+		 * 
+		 * PreparedStatement pstmt=con.prepareStatement(Query); pstmt.setString(1,
+		 * tsource); pstmt.setString(2, tdest);
+		 * 
+		 * ResultSet rs=pstmt.executeQuery();
+		 * out.println("<table border=1 width=50% height=50%>"); out.
+		 * println("<tr><th>ID</th><th>Train number</th><th> TrainName</th><th> FromStation</th> <th> ToStation</th> <th> Seats Available</th><th> Fare</th>   <tr>"
+		 * ); while(rs.next()) { if(tsource.equals(rs.getString("FROMSTATION")) &&
+		 * tdest.equals(rs.getString("TOSTATION"))==true ) { check=true;
+		 * //out.print("Id "+"TrainNumber "+"TrainName "+"FromStation "+"ToStation "
+		 * +"SeatsAvailable "+"Fare");
+		 * 
+		 * 
+		 * int id = rs.getInt(1); String tno = rs.getString(2); String tname=
+		 * rs.getString(3); String from=rs.getString(4); String to=rs.getString(5); int
+		 * seats=rs.getInt(6); int d=rs.getInt(7);
+		 * 
+		 * 
+		 * //out.println(rs.getInt(1)+"\t"+rs.gAAAAAAAAAAAA
+		 * etString(2)+"\t"+rs.getString(3)+"\t"+rs.getString(4)+"\t"+rs.getString(5)
+		 * +" \t "+rs.getInt(6)+" \t "+rs.getInt(7)); //
+		 * out.println("--------------------------------------------------------");
+		 * out.println("<tr><td>" + id + "</td><td>" + tno + "</td><td>" + tname +
+		 * "</td><td>" + from + "</td><td>" + to + "</td> <td>" + d + "</td>  </tr>");
+		 * out.print("Book Ticket");
+		 * 
+		 * try {
+		 * 
+		 * //Preparing Query 2 which are present in the DBConstant Class
+		 * 
+		 * String
+		 * insertQuery="insert into ticket_details(pnr,username,train_no)values(?,?,?);"
+		 * ; PreparedStatement stmt=con.prepareStatement(insertQuery);
+		 * 
+		 * stmt.setInt(1, (int)Math.random()); stmt.setString(2, username );
+		 * stmt.setString(3, );
+		 * 
+		 * 
+		 * 
+		 * stmt.setString(7, train.getDoj()); int value=stmt.executeUpdate();
+		 * 
+		 * if(value>0) { return true;
+		 * 
+		 * } else { return false; } } catch (SQLException e) { // TODO Auto-generated
+		 * catch block e.printStackTrace();
+		 * 
+		 * return false;
+		 * 
+		 * }
+		 * 
+		 * 
+		 * } else if(check==false) { out.print("No Train found"); }
+		 * 
+		 * } out.println("</table>"); out.println("</html></body>");
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * } catch (SQLException e) { // TODO Auto-generated catch block
+		 * e.printStackTrace(); }
+		 * 
+		 * 
+		 * }
+		 * 
+		 * 
+		 * }
+		 */

@@ -1,0 +1,38 @@
+package com.ticket.main;
+
+
+import java.util.Scanner;
+
+public class Test {
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+	
+		 do
+		 
+		int mychoice=0;
+	
+		 {
+			System.out.println("Choose Option  \n 1: Register  2: Login 3: Exit " );
+			System.out.println("Please Enter Your Correct Choice");
+		mychoice=sc.nextInt();
+		New_User_Registration r1=new New_User_Registration();
+		
+		if(mychoice==1) 
+			new Registration_Service().registerUser(r1);
+		
+		if(mychoice==2) 
+			new Registration_Service().form_Validation(r1);
+		
+		if(mychoice==3)
+			System.exit(0);
+		}
+		while(mychoice!= 1 || mychoice!=2 );
+				
+		TrainMain.chooseOption();
+	 
+	}
+
+}
+	

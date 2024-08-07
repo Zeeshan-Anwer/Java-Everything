@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;VoidMethodWithNoParams.java&apos; to &apos;LambdaEx.java&apos;&#x0D;&#x0A;- Original project: &apos;Java8&apos;&#x0D;&#x0A;- Destination element: &apos;LambdaEx.java&apos;&#x0D;&#x0A;- Original element: &apos;com.eazybytes.java8.lambda.VoidMethodWithNoParams.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=JavaNewFeaturePractice/Java8&lt;{LambdaEx.java" element1="/src&lt;com.eazybytes.java8.lambda{VoidMethodWithNoParams.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1663309849694" units="1" version="1.0"/>
+</session>

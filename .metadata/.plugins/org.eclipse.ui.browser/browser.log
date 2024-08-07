@@ -1,0 +1,21 @@
+
+Mar 20, 2022 21:38:58.995 NEW SESSION
+Mar 20, 2022 21:38:58.996 
+Mar 20, 2022 21:38:58.997 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Mar 20, 2022 21:38:58.998 
+Mar 20, 2022 22:05:20.225 
+Mar 20, 2022 22:05:20.226 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+Mar 20, 2022 22:05:20.227 
+Mar 20, 2022 23:28:30.916 
+Mar 20, 2022 23:28:30.918 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+Mar 20, 2022 23:28:30.920 
+Mar 20, 2022 23:28:30.994 [Parent 78396, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Mar 21, 2022 10:39:42.454 NEW SESSION
+Mar 21, 2022 10:39:42.454 [Child 16272, MediaDecoderStateMachine #1] WARNING: 243ab9c3120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:330
+Mar 21, 2022 10:40:25.482 [Parent 14972, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Mar 21, 2022 10:40:25.484 [Parent 14972, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Mar 21, 2022 11:45:15.550 [Parent 14972, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+Mar 22, 2022 15:51:04.16 NEW SESSION
+Mar 22, 2022 15:51:04.16 [Parent 9872, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565

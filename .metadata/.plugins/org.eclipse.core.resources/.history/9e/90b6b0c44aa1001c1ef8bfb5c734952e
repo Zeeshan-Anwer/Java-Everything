@@ -1,0 +1,25 @@
+package string_programmes;
+
+import java.util.Scanner;
+
+public class ReplaceWord {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter First String");
+		String word1=sc.next();
+		System.out.println("Enter Second String");
+		String word2=sc.next();
+	
+		
+		if(word1.equals(word2))
+			System.out.println("Equal");
+		else
+			System.out.println("Not Equal:");
+
+
+	}
+
+}
